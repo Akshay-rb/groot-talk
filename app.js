@@ -1,8 +1,6 @@
 const btnTranslater = document.querySelector("#btn-translate")
 const txtInput = document.querySelector('#txt-input')
 const outputDiv = document.querySelector('#output')
-// var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.jsons"
-// var url = "https://api.funtranslations.com/translate/minion.json"
 let url = 'https://api.funtranslations.com/translate/groot.json'
 
 // url construction
