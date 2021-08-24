@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #059669;
+}
+
+body {
+  display: block;
+  text-align: center;
+  width: 40% 80%;
+}
+
+#txt-input {
+  width: 80%;
+  display: block;
+  height: 10vh;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#output-heading {
+  display: block;
+  font-size: larger;
+}
+
+#output {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 1rem;
+  width: 80%;
+  height: 10vh;
+  display: block;
+}
+
+.header {
+  background-color: var(--primary-color);
+  border-bottom-right-radius: 1rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  /* display: block; */
+}
+
+#btn-translate {
+  background-color: var(--primary-color);
+  font-weight: 100;
+  padding: 0.5rem 1rem;
+  margin: auto;
+}
